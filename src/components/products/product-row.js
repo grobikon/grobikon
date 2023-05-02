@@ -1,7 +1,8 @@
+import styles from "./product-row.module.css"
 // строка таблицы с названием категории (занимает всю строку)
 function ProductCategoryRow({category}) {
     return (
-        <tr className="category">
+        <tr className={styles.category}>
             <th colSpan="2">
                 {category}
             </th>
