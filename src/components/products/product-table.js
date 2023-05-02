@@ -1,6 +1,7 @@
 import {useState} from "react";
 import {SearchBar} from "./product-search";
 import {ProductCategoryRow, ProductRow} from "./product-row";
+import "./style.css"
 
 //  общий контейнер для поиска и отображения
 function FilterableProductTable({products}) {
